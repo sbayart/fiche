@@ -1,24 +1,27 @@
 body {
-    background-image: url(./image/Aubrac.jpeg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #6ba167;
+    padding: 40px;
 }
 h1 {
     font-size: 4em;
-    color: #876641;
+    color: #8ECB7B;
     border: 10px solid #b631af;
+    border-radius: 15px;
     border-style: double;
     text-align: center;
-    background-image: url(./image/arbre-coeur.jpg);
+    background-image: url(./image/feuillage.jpg);
     background-position: center;
+    box-shadow: 5px 5px 12px #555
 }
-p.titre {
-    color: #08ff08;
+#lettrine:first-letter {
+  font-size : 60px;
+  color : #0e3606;
+  padding:10px 10px 10px 0;
+  float : left;
 }
 li {
     color: #9f0092;
     font-weight: bolder;
-    column-count: 2;
 }
 label{
     color: #b0adad;
@@ -29,10 +32,11 @@ label.adresse {
     font-weight: bold;
 }
 a {
-    color:#56c567
+    color:#126920
 }
 .texte {
     -webkit-columns: 4;
 	-moz-columns: 4;
     columns: 4;
+    text-align: justify;
 }
