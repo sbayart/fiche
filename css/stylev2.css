@@ -12,8 +12,8 @@ li {color: aqua;
 }
 label{
     color: #b0adad;
-    width: 5em;
-    display: : inline-block;
+    width: 10em;
+    display: inline-block;
 }
 label.adresse {
     font-weight: bold;
