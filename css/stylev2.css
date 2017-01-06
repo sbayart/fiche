@@ -32,6 +32,7 @@ a {
     color:#56c567
 }
 .texte {
-    			columns: 4;
-
+    -webkit-columns: 4;
+	-moz-columns: 4;
+    columns: 4;
 }
