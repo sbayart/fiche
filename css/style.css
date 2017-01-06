@@ -1,0 +1,19 @@
+h1 {
+    font-size: 4em;
+    color: #20961D;
+    border: 10px solid #00ff15;
+    border-style: double;
+    text-align: center;
+}
+
+label{
+    color: #b0adad;
+}
+label.adresse {
+    font-weight: bold;
+}
+a {
+    color red
+}
+p {alignment-adjust: middle
+}
