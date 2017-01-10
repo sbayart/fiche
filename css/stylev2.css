@@ -1,11 +1,19 @@
+
+header
+    {margin: 1em 1em 1em 1em;
+}
 body {
     background-color: #6ba167;
     padding: 40px;
 }
+img
+        {border-radius: 15px;
+        margin: 2em 2em 2em 2em;
+}
 h1 {
     font-size: 4em;
     color: #8ECB7B;
-    border: 10px solid #b631af;
+    border: 10px solid #386f52;
     border-radius: 15px;
     border-style: double;
     text-align: center;
@@ -19,9 +27,23 @@ h1 {
   padding:10px 10px 10px 0;
   float : left;
 }
-li {
-    color: #9f0092;
+ul{
+    padding:0;
+    list-style-type:none;
+    float: right;
+    width: 55em;
+    margin-top: 7em;
+}
+li {color: #315c27;
     font-weight: bolder;
+}
+nav li {
+    margin-left:2px;
+    float:left;
+}
+nav ul{float: right;
+    width: 30em;
+        margin-top: 0;
 }
 label{
     color: #b0adad;
@@ -34,9 +56,56 @@ label.adresse {
 a {
     color:#126920
 }
-.texte {
-    -webkit-columns: 4;
-	-moz-columns: 4;
-    columns: 4;
+ul li a {
+ display:block;
+ float:left;
+ width:160px;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border: 5px solid;
+ border-radius: 15px;
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ background-image: url(./image/feuillage.jpg);
+ }
+ul li a:hover {
+ background-color:#4F6896;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ }
+nav {
+        font-size: 2em;
+        text-align: justify;
+}
+aside
+    {float: left;
+        width: 25%;
+        height: 20em;
+        margin-left: 1em;
+        padding: 2em 2em 2em 2em;
+        text-align: justify;
+}
+main
+    {width: 60%;
+    float: right;
     text-align: justify;
+    padding: 2em 2em 2em 2em;
+    border-left-style: double;
+}
+section
+    {margin-left: 3em;
+    margin-top: 2em;
+    text-align: justify;
+    padding-right: 2em;
+}
+footer
+    {margin-left: 1em;
+        margin-top: 2em;
+        float: none;
+        display: inline-block;
+        text-align: justify;
+        padding-right: 2em;
+}
+section#contact {margin-bottom: 2em;
 }
