@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <img src="./css/image/photo2.jpg" alt="Une image"/>
+            <img src="./css/photos/photo2.jpg" alt="Une image"/>
             <ul>
                 <li><label>Prénom :</label> Solène</li>
                 <li><label>Nom :</label> ANTOINE</li>
@@ -62,7 +62,18 @@ ASIDE Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod t
             </section>
             <section id="contact">
                 <h1>Contact !</h1>
-                Contact Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <form action="http://live.codincamp.fr/mail.php" method="post">
+                    <fieldset>
+                        <legend>Vos informations</legend>
+                        <label for="Nom">Votre nom</label>
+                        <input type="text" name="Nom" value="">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre commentaire</legend>
+                        <input type="textarea" name="" value="">
+                    </fieldset>
+                    <input type="submit" name="" value="Envoyer" />
+                </form>
             </section>
             <a href="#top">Retourner en haut</a>
         </main>
